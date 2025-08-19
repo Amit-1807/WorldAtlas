@@ -19,7 +19,7 @@ export const Contact = () => {
                 placeholder="Enter your name"
                 className="form-control"
                 required 
-                autoComplete="false"
+                autoComplete="off"
                 name="Username"/>
                 
                 <input 
@@ -27,7 +27,7 @@ export const Contact = () => {
                 placeholder="Enter your email"
                 className="form-control"
                 required 
-                autoComplete="false"
+                autoComplete="off"
                 name="email"/>
                 
                 <textarea 
@@ -35,7 +35,7 @@ export const Contact = () => {
                 placeholder="Enter your message"
                 className="form-control"
                 required 
-                autoComplete="false"
+                autoComplete="off"
                 name="message"/>
 
                 <button type="submit" value="send">Send</button>

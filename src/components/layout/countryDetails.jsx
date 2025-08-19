@@ -1,7 +1,7 @@
 import { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndData } from "../../api/postApi";
-
+import { Loader } from "../ui/loader";
 
 export const CountryDetails = () => {
   const params = useParams();
